@@ -2,16 +2,15 @@
 * Colors
 */
 
-$colors:(// los voy a cambiar ahora por los que usare en realidad
+$colors: (
+  // los voy a cambiar ahora por los que usare en realidad
   white: #fff,
-  black: #000,
-  dark: #3D4142,
-  dark-mid:#353535,
-  blue-primary: #2578CD,
-  gray-primary: #F5F6F8,
-  gray-mid: #D2D2D2,
-  gray-cards: #efefef,
-  footer-gray: #fafafa,
+  fonts: #425966,
+  cards-bg: #E9F1FA,
+  shadow:#BFC4CAD1,
+  ligth-dhadow: #A9A9A911,
+  dark-shadow: #00000029,
+  footer: #6AA3C1,
 );
 
 @function color($key) {
