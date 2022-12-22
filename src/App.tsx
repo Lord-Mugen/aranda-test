@@ -1,5 +1,6 @@
 import React from "react";
 import "./App.css";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Categories from "./containers/Categories";
 
@@ -8,6 +9,7 @@ function App() {
     <div className="c-container">
       <Header />
       <Categories />
+      <Footer />
     </div>
   );
 }

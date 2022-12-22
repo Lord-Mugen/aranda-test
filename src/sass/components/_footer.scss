@@ -1,0 +1,47 @@
+.c-footer{
+    background: transparent linear-gradient(180deg, color(ligth-blue) 0%, color(blue) 100%) 0% 0% no-repeat ;
+    box-shadow: 4px 6px 23px color(ligth-shadow);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: auto;
+    position: relative;
+    padding: 18px;
+
+    @media (min-width: 48em){
+        padding: 36px;
+    }
+
+    @media (min-width: 62em){
+        padding: 52px 36px 52px 166px;
+    }
+    
+    &__text{
+        font-family: $monster;
+        font-size: 23px;
+        font-weight: 400;
+        color: color(dark-gray);
+        width: 100%;
+        @media (min-width: 48em){
+            font-size: 39px;
+        }
+
+        @media (min-width: 62em){
+            font-size: 56px;
+        }
+    }
+
+    &__img{
+        width: 55%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        transform: translateY(4px);
+        
+        @media (min-width: 48em){
+            transform: translate(-42px, 0);
+            width: 47%;
+            max-width: 601px;
+        }
+    }
+}
