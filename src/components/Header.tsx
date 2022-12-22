@@ -1,11 +1,13 @@
-import Navbar from "./Navbar"
+import Navbar from "./Navbar";
+import Hero from "./Hero";
 
-const Header = () => {
+const Header = (): JSX.Element => {
   return (
-    <div className ="c-hero">
+    <header className="c-main-menu">
       <Navbar />
-    </div>
-  )
-}
+      <Hero />
+    </header>
+  );
+};
 
-export default Header
+export default Header;

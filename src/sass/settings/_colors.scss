@@ -3,14 +3,16 @@
 */
 
 $colors: (
-  // los voy a cambiar ahora por los que usare en realidad
   white: #fff,
-  fonts: #425966,
+  dark-gray: #425966,
   cards-bg: #E9F1FA,
   shadow:#BFC4CAD1,
   ligth-dhadow: #A9A9A911,
   dark-shadow: #00000029,
-  footer: #6AA3C1,
+  blue: #6AA3C1,
+  gray:#8395A7,
+  red-brand: #D84A4A,
+
 );
 
 @function color($key) {
@@ -19,4 +21,5 @@ $colors: (
   }
 
   @warn 'That color is not defined: \'#{$key}\'';
+  @return null;
 }
