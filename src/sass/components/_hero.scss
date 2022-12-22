@@ -1,0 +1,36 @@
+.c-hero{
+    width: 100%;
+    min-height: 416px;
+    background-color: color(dark-gray);
+    background-image: url(../../assets/bcq.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    padding-left: 56px;
+
+    @media (min-width: 48em){
+        padding-left: 121px;
+    }
+
+    @media (min-width: 62em){
+        padding-left: 261px;
+    }
+
+    &__title{
+        color: white;
+        // font-family: $poppins;
+        max-width: 300px;
+        font-size: 74px;
+        font-weight: normal;
+        // font: normal normal normal 74px/111px Poppins;
+        letter-spacing: 0;
+        line-height: 37px;
+        & > span{
+            font-family: $monster;
+            font-size: 67px;
+        }
+    } 
+
+}
