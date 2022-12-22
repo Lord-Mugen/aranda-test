@@ -1,0 +1,12 @@
+.c-categories{
+    width: 100%;
+    // min-height: 85px;
+    background-color: rgba(255, 0, 0, 0.535);
+    position: absolute;
+    display: flex;
+    transform: translateY(-40%);
+
+    @media (min-width: 62em){
+        display: none;
+    }
+}
