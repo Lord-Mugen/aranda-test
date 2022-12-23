@@ -4,34 +4,45 @@
     background: transparent linear-gradient(180deg, color(cards-bg) 0%,color(white) 100%) 0% 0% no-repeat padding-box;
     box-shadow: 0px 5px 9px color(gray-shadow);
     border-radius: 20px;
-    min-width: calc(50% - 10px);
+    // width: 100%;
+    min-width: 180px;
     position: relative;
-    height: 182px;
+    min-height: 182px;
+    height: auto;
     margin-top: 36px;
     padding: 8px;
     transition: height 0.2s ease-in;
     margin-right: 25px;
-
 
     @media( min-width: 48em ){
         height: 270px;
         min-width: 266px;
     }
 
+   
     &:hover{
         height: 300px;
         cursor: pointer;
-
+        
+        @media( min-width: 62em ){
+            height: 360px;
+        }
 
         &> .c-card__ranking{
             display: none;
+
         }
 
         &> .c-card__recipe{
             display: block;
             overflow: visible;
             height: 100%;
+            transition: overflow 0.6s ease-in-out;
+
         }
+
+        
+    
     }
 
 
@@ -41,7 +52,7 @@
         width: 100%;
         position: relative;
         padding: 0 22px;
-        min-height: 80px;
+        min-height: 40%;
 
         @media( min-width: 48em ){
             
@@ -54,6 +65,10 @@
         width: 70%;
         position: absolute;
         transform: translateY(-45px);
+
+        @media( min-width: 48em ){
+        transform: translateY(-54px);
+        }
     }
 
     &__ranking{
@@ -109,11 +124,10 @@
 
 
     &__recipe{
-        transition-delay: 1s ;
-        transition: 0.6s ease-in-out;
+        // transition-delay: 1s ;
+        // transition: heigth 0.6s ease-in-out;
         height: 0;
         overflow: hidden; 
-        // display: none;
     }
 
     &__info{
