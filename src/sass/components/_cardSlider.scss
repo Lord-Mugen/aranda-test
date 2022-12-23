@@ -1,0 +1,29 @@
+.c-cardSlider{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    
+    
+    &__title{
+        font-family: $monster;
+        font-size: 54px;
+        font-weight: 300;
+        color: color(red-brand);
+        
+    }
+
+    &__container{
+        display: flex;
+        // justify-content: space-between;
+        padding: 0 20px;
+        margin-bottom: 48px;
+        width: 100%;
+        overflow: hidden;
+
+        @media( min-width: 48em ){
+            padding-left: 70px;
+        }
+
+    }
+}
