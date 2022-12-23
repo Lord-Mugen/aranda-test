@@ -3,13 +3,17 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
+    max-width: 1280px;
     position: relative;
     min-height: 350px;
-    margin-bottom: 80px;
-    max-width: 1280px;
-    margin: 0 auto;
+    margin-bottom: 100px;
 
     @media( min-width: 48em ){
+        margin-bottom: 300px;
+    }
+
+    @media( min-width: 62em ){
+        margin: 0 auto;
         margin-bottom: 300px;
     }
     
@@ -23,12 +27,13 @@
             font-size: 54px;
             align-self: flex-start;
             margin-left: 70px;
-            margin-top: 50px;
-            margin-bottom: 20px;
+            // margin-bottom: 20px;
         }
-
-        @media( min-width: 48em ){
+        
+        @media( min-width: 62em ){
             font-size: 67px;
+            margin-top: 50px;
+
         }
 
         
@@ -51,11 +56,12 @@
 
         @media( min-width: 48em ){
             padding-left: 70px;
-            padding-top: 90px;
+            padding-top: 50px;
         }
 
         @media( min-width: 62em ){
             justify-content: space-between;
+            padding-top: 100px;
         }
 
     }
