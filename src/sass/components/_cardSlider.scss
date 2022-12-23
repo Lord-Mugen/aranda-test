@@ -6,6 +6,8 @@
     position: relative;
     min-height: 350px;
     margin-bottom: 80px;
+    max-width: 1280px;
+    margin: 0 auto;
 
     @media( min-width: 48em ){
         margin-bottom: 300px;
