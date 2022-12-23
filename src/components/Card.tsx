@@ -1,20 +1,14 @@
-// import Ojinjeo from "../assets/Ojingeo-muchim.png";
-// import Star from "../assets/icons/star.svg";
-// import Heart from "../assets/icons/favorite.svg";
-
 const recipe = require.context("../assets/", true);
 const icon = require.context("../assets/icons", true);
 
 const Card = () => {
   return (
     <div className="c-card">
-      <div className="c-card__content-img">
-        <img
-          className="c-card__img"
-          src={recipe("./Ojingeo-muchim.png")}
-          alt="Food img"
-        />
-      </div>
+      <img
+        className="c-card__img"
+        src={recipe("./Ojingeo-muchim.png")}
+        alt="Food img"
+      />
       <div className="c-card__ranking">
         <p className="c-card__name">
           Ojingeo <span>muchim</span>
