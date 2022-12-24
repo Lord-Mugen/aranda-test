@@ -1,12 +1,16 @@
+import { Context } from "../context/Context";
+import { useContext } from "react";
 import Card from "./Card";
-import { recipes } from "../helpers/recipes";
+import { RecipeContexType } from "../context/recipeTypes";
 
 const CardSlider = () => {
+  const { recetas } = useContext(Context) as RecipeContexType;
+
   return (
     <section className="c-cardSlider">
       <h2 className="c-cardSlider__title">Nuevas Recetas</h2>
       <div className="c-cardSlider__container">
-        {recipes.map((recip) => (
+        {recetas.map((recip) => (
           <Card
             key={recip.id}
             img={recip.img}
