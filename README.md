@@ -1,46 +1,22 @@
-# Getting Started with Create React App
+# Aranda test
+Prueba tecnica para el puesto de frontend developer en Aranda software.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![image](https://user-images.githubusercontent.com/79488966/209452016-1f9022a5-50af-4153-9800-823232d21892.png)
+![image](https://user-images.githubusercontent.com/79488966/209452073-24dd6c91-13f8-4651-b17b-b7b65ad9f00e.png)
+![image](https://user-images.githubusercontent.com/79488966/209452076-1d1fca15-c408-409f-9bc3-6e1acf4d03ba.png)
 
-## Available Scripts
 
-In the project directory, you can run:
+## Depliegue
+Enlace de despliegue del proyecto: https://aranda-test.vercel.app/
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Herramientas de desarrollo
+El proyecto fue desarrollado con: Reactjs, Typescript, Jsx, Sass, BEM y Itcss.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
+## Instalación
+Para instalar el proyecto utilice el siguiente comando *npm install*.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Creditos
+* Diseño: Aranda software.
+* Desarrollo y maquetación: Christian Javier Ruiz Cortés
