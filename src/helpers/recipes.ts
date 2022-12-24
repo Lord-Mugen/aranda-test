@@ -8,7 +8,8 @@ const recipe = require.context("../assets", true);
             "subName": "Muchim",
             "portion": "4 raciones",
             "time": "10 minutos",
-            "difficulty": "fácil"
+            "difficulty": "fácil",
+            "ranking": "5.0"
         },
         {
             "id":2,
@@ -17,7 +18,8 @@ const recipe = require.context("../assets", true);
             "subName": "Chicken",
             "portion": "4 raciones",
             "time": "10 minutos",
-            "difficulty": "fácil"
+            "difficulty": "fácil",
+            "ranking": "5.0"
         },
         {
             "id":3,
@@ -26,7 +28,8 @@ const recipe = require.context("../assets", true);
             "subName": "Carrot",
             "portion": "4 raciones",
             "time": "10 minutos",
-            "difficulty": "fácil"
+            "difficulty": "fácil",
+            "ranking": "4.5"
         },
         {
             "id":4,
@@ -35,6 +38,7 @@ const recipe = require.context("../assets", true);
             "subName": "Cherries",
             "portion": "4 raciones",
             "time": "10 minutos",
-            "difficulty": "fácil"
+            "difficulty": "fácil",
+            "ranking": "5.0"
         }
     ];

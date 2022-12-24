@@ -15,6 +15,7 @@ const CardSlider = () => {
             portion={recip.portion}
             time={recip.time}
             difficulty={recip.difficulty}
+            ranking={recip.ranking}
           />
         ))}
       </div>
