@@ -7,6 +7,7 @@ type props = {
   portion: string;
   time: string;
   difficulty: string;
+  ranking: string;
 };
 
 const Card: React.FC<props> = ({
@@ -16,6 +17,7 @@ const Card: React.FC<props> = ({
   portion,
   time,
   difficulty,
+  ranking,
 }) => {
   return (
     <div className="c-card">
@@ -27,7 +29,7 @@ const Card: React.FC<props> = ({
         <div className="c-card__footer">
           <span>
             <img className="c-card__icon" src={icon("./star.svg")} alt="star" />
-            5.0
+            {ranking}
           </span>
           <img
             className="c-card__icon"

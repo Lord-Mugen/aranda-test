@@ -1,4 +1,3 @@
-import React from "react";
 import "./App.css";
 import CardSlider from "./components/CardSlider";
 import Footer from "./components/Footer";
