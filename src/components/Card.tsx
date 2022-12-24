@@ -1,17 +1,28 @@
-const recipe = require.context("../assets/", true);
 const icon = require.context("../assets/icons", true);
 
-const Card = () => {
+type props = {
+  img: string;
+  name: string;
+  subName: string;
+  portion: string;
+  time: string;
+  difficulty: string;
+};
+
+const Card: React.FC<props> = ({
+  img,
+  name,
+  subName,
+  portion,
+  time,
+  difficulty,
+}) => {
   return (
     <div className="c-card">
-      <img
-        className="c-card__img"
-        src={recipe("./Ojingeo-muchim.png")}
-        alt="Food img"
-      />
+      <img className="c-card__img" src={img} alt="Food img" />
       <div className="c-card__ranking">
         <p className="c-card__name">
-          Ojingeo <span>muchim</span>
+          {name} <span>{subName}</span>
         </p>
         <div className="c-card__footer">
           <span>
@@ -34,7 +45,7 @@ const Card = () => {
             alt="food portion"
           />
           <p className="c-card__recipe-title">Tamaño de la porcion</p>
-          <p className="c-card__recipe-data">4 raciones</p>
+          <p className="c-card__recipe-data">{portion}</p>
         </div>
         <div className="c-card__info">
           <img
@@ -43,7 +54,7 @@ const Card = () => {
             alt="food time"
           />
           <p className="c-card__recipe-title">Tiempo de preparación</p>
-          <p className="c-card__recipe-data">10 minutos</p>
+          <p className="c-card__recipe-data">{time}</p>
         </div>
         <div className="c-card__info">
           <img
@@ -52,7 +63,7 @@ const Card = () => {
             alt="chef hat"
           />
           <p className="c-card__recipe-title">Dificultad</p>
-          <p className="c-card__recipe-data">fácil</p>
+          <p className="c-card__recipe-data">{difficulty}</p>
         </div>
       </div>
     </div>
